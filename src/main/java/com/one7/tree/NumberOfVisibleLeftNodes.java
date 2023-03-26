@@ -30,7 +30,7 @@ public class NumberOfVisibleLeftNodes {
         root_1.left.right.left = new Node(4);
         root_1.left.right.right = new Node(7);
         root_1.right.right.left = new Node(13);
-        System.out.println(visibleNodes(root_1));
+        System.out.println(visibleLeftNodes(root_1));
 
         Node root_2 = new Node(10);
         root_2.left = new Node(8);
@@ -40,10 +40,10 @@ public class NumberOfVisibleLeftNodes {
         root_2.left.left.right.right = new Node(6);
         root_2.right.left = new Node(14);
         root_2.right.right = new Node(16);
-        System.out.println(visibleNodes(root_2));
+        System.out.println(visibleLeftNodes(root_2));
     }
 
-    private static int visibleNodes(Node root) {
+    private static int visibleLeftNodes(Node root) {
 
         int visibleNode = 1;
         if (root == null) {

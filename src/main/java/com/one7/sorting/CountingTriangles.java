@@ -30,9 +30,9 @@ public class CountingTriangles {
     }
 
     private static boolean checkEquality(Sides s1, Sides s2) {
-        return (s1.a == s2.a || s1.a == s2.b || s1.a == s2.c) && (s1.b == s2.b || s1.b == s2.c || s1.b == s2.a) && (s1.c == s2.c || s1.c == s2.b || s1.c == s2.a);
+        return (s1.a == s2.a || s1.a == s2.b || s1.a == s2.c) && (s1.b == s2.b || s1.b == s2.c || s1.b == s2.a) &&
+                (s1.c == s2.c || s1.c == s2.b || s1.c == s2.a);
     }
-
 
 }
 

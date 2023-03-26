@@ -28,7 +28,7 @@ public class NumberOfVisibleLeftNodesRecursion {
 
     private static int visibleNodes(Node root) {
         int c = 0;
-        max_level = 0;
+//        max_level = 0;
         c = printLeftView(root, 1, c);
         return c;
     }

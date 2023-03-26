@@ -39,7 +39,7 @@ public class QueueRemovals {
         System.out.println("Queued ===" + q);
 
         for (int a = 0; a < x; a++) {
-            System.out.println("Queued ===" + q);
+            //System.out.println("Queued ===" + q);
             //Step 1
             //Pop x elements from the front of queue (or, if it contains fewer than x elements, pop all of them)
             List<Elements> popped = new LinkedList<>();

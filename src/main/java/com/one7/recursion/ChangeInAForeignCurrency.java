@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class ChangeInAForeignCurrency {
 
     public static void main(String[] args) {
-        System.out.println(canGetExactChange(94, new int[]{5, 10, 25, 100, 200}));
+       // System.out.println(canGetExactChange(94, new int[]{5, 10, 25, 100, 200}));
         System.out.println(canGetExactChange(75, new int[]{4, 17, 29}));
     }
 

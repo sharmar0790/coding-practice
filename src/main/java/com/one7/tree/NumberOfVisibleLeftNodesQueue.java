@@ -16,7 +16,7 @@ public class NumberOfVisibleLeftNodesQueue {
         root_1.left.right.left = new Node(4);
         root_1.left.right.right = new Node(7);
         root_1.right.right.left = new Node(13);
-        System.out.println(visibleNodes(root_1));
+//        System.out.println(visibleNodes(root_1));
 
         Node root_2 = new Node(10);
         root_2.left = new Node(8);
@@ -26,7 +26,7 @@ public class NumberOfVisibleLeftNodesQueue {
         root_2.left.left.right.right = new Node(6);
         root_2.right.left = new Node(14);
         root_2.right.right = new Node(16);
-        System.out.println(visibleNodes(root_2));
+        System.out.println("Visible=="+visibleNodes(root_2));
     }
 
     private static int visibleNodes(Node root) {
@@ -49,7 +49,7 @@ public class NumberOfVisibleLeftNodesQueue {
                 // Print the left most element at
                 // the level
                 if (i == 1) {
-//                    System.out.print(temp.data + " ");
+                    System.out.print(temp.data + " ");
                     c++;
                 }
 
