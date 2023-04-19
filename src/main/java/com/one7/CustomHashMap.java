@@ -11,17 +11,6 @@ public class CustomHashMap {
 
         r = map.get("a1");
         System.out.println(r);
-
-        /*CHashMap<String, Integer> map1 = new CHashMap<>(2);
-        map1.put("a", 1);
-        map1.put("a1", 2);
-        map1.put("a2", 3);
-
-        Integer r = map1.get("a");
-        System.out.println(r);
-
-        r = map1.get("a1");
-        System.out.println(r);*/
     }
 }
 
